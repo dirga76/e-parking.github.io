@@ -1,0 +1,90 @@
+body {
+    background-image: url(assets/img/pp.jpg);
+    background-size: cover;
+}
+
+
+/*text log in*/
+
+.text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    margin-top: 35vh;
+    text-align: center;
+}
+
+
+/*text log in*/
+
+
+/*box log in*/
+
+.box {
+    background: rgba(red, rgb(141, 237, 6), blue, alpha);
+}
+
+.box h1 {
+    color: rgb(255, 255, 247);
+    border-color: blanchedalmond;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid gold;
+    padding: 10px 70px;
+    outline: none;
+    color: rgb(12, 12, 11);
+    border-radius: 24px;
+    transition: 0.25px;
+    font-family: monospace;
+}
+
+.box input[type="text"] .box input[type="password"]:focus {
+    width: 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(227, 189, 19);
+    padding: 10px 70px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: rgb(4, 4, 4);
+}
+
+.box input[type="submit"] {
+    color: cyan;
+    background-color: blue;
+}
+
+.box input[placeholder="enter Password"] {
+    color: rgb(250, 250, 255);
+    background-color: rgb(1, 1, 1);
+}
+
+.box input[placeholder="enter Username"] {
+    color: rgb(250, 250, 255);
+    background-color: rgb(1, 1, 1);
+    font-style: italic;
+}
+
+
+/*box log in*/
